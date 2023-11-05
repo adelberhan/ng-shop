@@ -1,0 +1,17 @@
+.d-item {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  .pi {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  .name {
+    font-size: 1.2em;
+  }
+  .number {
+    margin-top: 50px;
+    font-size: 2em;
+  }
+}

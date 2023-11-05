@@ -1,0 +1,59 @@
+<div class="card flex justify-content-center">
+  <p-sidebar [(visible)]="sidebarVisible">
+    <div class="admin-sidebar">
+      <div class="logo">
+        <a routerLink="/">
+          <img
+            src="http://drive.google.com/uc?export=view&id1mbEX8mPy9bPPyt6nS53lgWj7QNn_ufNY"
+            alt=""
+        /></a>
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <ng-shop-switch-theme-icon></ng-shop-switch-theme-icon>
+          </li>
+          <li>
+            <a routerLink="/" class="text-primary"
+              ><i class="pi pi-home"></i>Dashbord</a
+            >
+          </li>
+          <li>
+            <a class="text-primary" routerLink="/product"
+              ><i class="pi pi-briefcase"></i>Product</a
+            >
+          </li>
+          <li>
+            <a class="text-primary" routerLink="/categories"
+              ><i class="pi pi-list"></i>Category</a
+            >
+          </li>
+          <li>
+            <a class="text-primary" routerLink="/orders"
+              ><i class="pi pi-shopping-cart"></i>Orders</a
+            >
+          </li>
+          <li>
+            <a class="text-primary" routerLink="/user"
+              ><i class="pi pi-users"></i>Users</a
+            >
+          </li>
+          <li>
+            <a
+              routerLink="/log-out"
+              class="log-out text-red-500"
+              (click)="logOut()"
+              ><i class="pi pi-sign-out"></i>Logout</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </p-sidebar>
+  <p-button
+    (click)="sidebarVisible = true"
+    icon="pi pi-arrow-right "
+    styleClass="bg-primary nav-wid"
+    class="nav-customize fixed"
+  ></p-button>
+</div>
