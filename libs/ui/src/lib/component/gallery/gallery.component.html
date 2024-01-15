@@ -1,0 +1,42 @@
+<!-- <div class="gallery col-12" *ngIf="hasImages">
+  <div class="main-image">
+    <img class="" [src]="selectedImage" alt="" />
+    <div class="images">
+      <ul class="col-12">
+        <li
+          *ngFor="let imageUrl of imgs"
+          (click)="changeImage(imageUrl)"
+          [ngStyle]="{ 'background-image': 'url(' + imageUrl + ')' }"
+        ></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="gallery-container" *ngIf="hasImages">
+  <div class="main-image">
+    <img [src]="selectedImage" alt="" />
+  </div>
+  <div class="thumbnails">
+    <ul>
+      <li *ngFor="let item of imgs; let i = index;" (click)="changeImage(item)">
+        <img [src]="item" alt="" />
+      </li>
+    </ul>
+  </div>
+</div> -->
+<p-galleria
+  [value]="imgs"
+  [responsiveOptions]="responsiveOptions"
+  [containerStyle]="{ 'width': '440px','max-hight': '250px' }"
+  [numVisible]="5"
+>
+  <ng-template pTemplate="item" let-item>
+    <img [src]="item" style="max-width: 100%; height: 100%" alt="" />
+  </ng-template>
+  <ng-template pTemplate="thumbnail" let-item>
+    <div class="grid grid-nogutter justify-content-center">
+      <img [src]="item" style="width: 100px; height: 100px" alt="" />
+    </div>
+  </ng-template>
+</p-galleria>

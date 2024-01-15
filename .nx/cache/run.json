@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run admin:build --outputPath=../production/admin",
+    "startTime": "2024-01-15T03:53:59.943Z",
+    "endTime": "2024-01-15T03:54:04.203Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "users:build:production",
+      "target": "build",
+      "projectName": "users",
+      "hash": "4183607292128610983",
+      "startTime": "2024-01-15T03:53:59.965Z",
+      "endTime": "2024-01-15T03:54:00.966Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "admin:build:production",
+      "target": "build",
+      "projectName": "admin",
+      "hash": "8693573037915230190",
+      "startTime": "2024-01-15T03:54:01.958Z",
+      "endTime": "2024-01-15T03:54:03.203Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}

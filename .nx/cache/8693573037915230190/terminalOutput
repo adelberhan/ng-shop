@@ -1,0 +1,15 @@
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m          [2m | [22m[1mNames[22m          [2m | [22m [1mRaw Size[22m[2m | [22m[1mEstimated Transfer Size[22m[0m[39m
+[37m[0m[92mmain.55197cdebfd0193f.js[39m[37m     [2m | [22mmain           [2m | [22m  [96m1.20 MB[39m[37m[2m | [22m              [96m248.37 kB[39m[37m[0m[39m
+[37m[0m[92mstyles.1ca6eece9dcbd831.css[39m[37m  [2m | [22mstyles         [2m | [22m[96m373.78 kB[39m[37m[2m | [22m               [96m24.23 kB[39m[37m[0m[39m
+[37m[0m[92mscripts.79d77e541bf8c23c.js[39m[37m  [2m | [22mscripts        [2m | [22m[96m209.60 kB[39m[37m[2m | [22m               [96m41.98 kB[39m[37m[0m[39m
+[37m[0m[92mpolyfills.48d21de0cb97ce33.js[39m[37m[2m | [22mpolyfills      [2m | [22m [96m33.02 kB[39m[37m[2m | [22m               [96m10.62 kB[39m[37m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                            [2m | [22m[1mInitial Total[22m  [2m | [22m  [1m[93m1.81 MB[39m[37m[22m[2m | [22m              [1m325.19 kB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m             [2m | [22m[1mNames[22m          [2m | [22m [1mRaw Size[22m[2m | [22m[1mEstimated Transfer Size[22m[0m[39m
+[37m[0m[92mviva-dark.css[39m[37m                [2m | [22mviva-dark      [2m | [22m[96m158.48 kB[39m[37m[2m | [22m               [96m14.15 kB[39m[37m[0m[39m
+[37m[0m[92mlara-light-blue.css[39m[37m          [2m | [22mlara-light-blue[2m | [22m[96m152.22 kB[39m[37m[2m | [22m               [96m13.88 kB[39m[37m[0m[39m
+[37m[0m[92mruntime.20efb239ad9c87d5.js[39m[37m  [2m | [22mruntime        [2m | [22m[96m903 bytes[39m[37m[2m | [22m              [96m510 bytes[39m[37m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-15T00:35:27.855Z[39m[37m[22m - Hash: [1m[37m56e0f1df2c3b4c2a[39m[37m[22m - Time: [1m[37m120671[39m[37m[22mms[0m[39m

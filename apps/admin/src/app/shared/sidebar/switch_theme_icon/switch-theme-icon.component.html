@@ -1,0 +1,19 @@
+<!-- <input type="checkbox" id="toggle_checkbox" />
+
+<label for="toggle_checkbox">
+  <div id="star" (click)="changeTheme()">
+    <div class="star" id="star-1">★</div>
+    <div class="star" id="star-2">★</div>
+  </div>
+  <div id="moon"></div>
+</label> -->
+
+<p-toggleButton
+  [onIcon]="lightMode"
+  onLabel=""
+  offLabel=""
+  offIcon="pi pi-moon"
+  [onIcon]="sun"
+  (onChange)="changeTheme()"
+  [style]="{ width: '2em' }"
+></p-toggleButton>

@@ -1,0 +1,62 @@
+<div class="admin-page">
+  <p-card header="Dashboard" subheader="Latest update">
+    <div class="grid">
+      <div
+        [ngClass]="{
+      'col-6 ':  getScreenWidth > 700,'col-12 ': getScreenWidth < 700, }"
+      >
+        <p-card styleClass=" bg-primary">
+          <div class="d-item">
+            <div>
+              <i class="pi pi-shopping-cart"></i><br />
+              <span class="name">Orders</span>
+            </div>
+            <span class="number">25</span>
+          </div>
+        </p-card>
+      </div>
+      <div
+        [ngClass]="{
+      'col-6 ':  getScreenWidth > 700,'col-12 ': getScreenWidth < 700, }"
+      >
+        <p-card styleClass="bg-primary-reverse">
+          <div class="d-item">
+            <div>
+              <i class="pi pi-users"></i><br />
+              <span class="name">Users</span>
+            </div>
+            <span class="number">25</span>
+          </div>
+        </p-card>
+      </div>
+      <div
+        [ngClass]="{
+      'col-6 ':  getScreenWidth > 700,'col-12 ': getScreenWidth < 700, }"
+      >
+        <p-card styleClass="bg-primary-reverse">
+          <div class="d-item">
+            <div>
+              <i class="pi pi-dollar"></i><br />
+              <span class="name">Total orders</span>
+            </div>
+            <span class="number">{{ '25' | currency }}</span>
+          </div>
+        </p-card>
+      </div>
+      <div
+        [ngClass]="{
+      'col-6 ':  getScreenWidth > 700,'col-12 ': getScreenWidth < 700, }"
+      >
+        <p-card styleClass="bg-primary-reverse">
+          <div class="d-item">
+            <div>
+              <i class="pi pi-briefcase"></i><br />
+              <span class="name">Products</span>
+            </div>
+            <span class="number">25</span>
+          </div>
+        </p-card>
+      </div>
+    </div>
+  </p-card>
+</div>

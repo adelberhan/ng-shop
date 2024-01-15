@@ -1,0 +1,45 @@
+<div class="form-container bg-primary-reverse">
+  <p class="title">Login</p>
+  <form class="form" [formGroup]="loginFormGroup">
+    <div class="input-group">
+      <label for="email">Email</label>
+      <input
+        type="text"
+        formControlName="email"
+        name="email"
+        id="email"
+        placeholder=""
+      />
+    </div>
+    <small *ngIf="loginForm.email.invalid && isSubmitted" class="p-error"
+      ><span *ngIf="loginForm.email.errors.required">email is required</span>
+      <span *ngIf="loginForm.email.errors.email">email is invalid</span></small
+    >
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        formControlName="password"
+        name="password"
+        id="password"
+        placeholder=""
+      />
+      <small *ngIf="loginForm.password.invalid && isSubmitted" class="p-error"
+        >password is required</small
+      >
+      <div class="forgot"></div>
+    </div>
+    <button (click)="onSubmit()" class="sign">Sign in</button>
+  </form>
+
+  <div class="text-center">
+    <p class="signup">Don't have an account? 🙄</p>
+    <a href="#" class="signup text-base" routerLink="/signup"
+      >Then Sign up 🙂
+    </a>
+  </div>
+
+  <div class="col-12" *ngIf="isSubmitted && authError">
+    <div class="p-error">{{ authMessage }}</div>
+  </div>
+</div>

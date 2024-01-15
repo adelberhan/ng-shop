@@ -1,0 +1,132 @@
+.admin {
+  &-wrapper {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    // display: flex;
+  }
+
+  &-main {
+    width: calc(100% - 175px);
+    margin-left: 175px;
+  }
+
+  &-sidebar {
+    position: fixed;
+    width: 175px;
+    background-color: var(--surface-overlay);
+    height: 100%;
+    top: 0;
+
+    .logo {
+      padding: 20px;
+      width: 100%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .links {
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          display: block;
+          list-style: none;
+          width: 100%;
+
+          a {
+            // color: var(--yellow-300);
+            padding: 10px 15px;
+            display: block;
+            width: 100%;
+            // color: #f58d89;
+
+            &:hover {
+              background-color: #0000003b;
+            }
+
+            i {
+              margin-right: 8px;
+              margin-top: 0;
+              float: left;
+            }
+
+            &.logout {
+              // color: var(--blue-500);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-page {
+    padding: 15px;
+    height: 100vh;
+    width: 95%;
+    float: right;
+    // margin-left: 170px;s
+  }
+}
+
+.p-inputtext {
+  height: 35.12px;
+  padding-left: 9px;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  border: 1px rgb(29, 39, 41) solid;
+  padding: 0;
+  text-align: center;
+}
+
+.p-dropdown .p-dropdown-label.p-placeholder {
+  padding: 10px;
+}
+.log-out {
+  // color: rgb(183, 208, 209) !important;
+}
+// .p-dropdown{
+//   // padding-bottom: 10px;
+//   height: 35.12px;
+// }
+.admin-board {
+  width: 83%;
+  // margin: 0 0 0 170px;
+  // float: right;
+}
+
+.nav-customize {
+  position: absolute;
+  left: 5px;
+  top: 13px;
+}
+button.p-ripple.p-element.p-button.p-component.p-button-icon-only {
+  width: 30px;
+}
+
+.btn-customize {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.p-sidebar-left {
+  top: 0px !important;
+  left: 0 !important;
+  width: 15rem !important;
+  height: 100% !important;
+}
+
+.p-button {
+  background: white;
+}
+
+.p-togglebutton.p-button {
+  width: 3em !important;
+  position: absolute !important;
+  top: 53px !important;
+  left: 172px !important;
+}
